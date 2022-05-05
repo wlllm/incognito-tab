@@ -11,6 +11,11 @@
         </style>
     </head>
     <body>
-        <iframe src="https://bing.com" width="window.innerWidth" height="window.innerHeight"></iframe>
+        <iframe src="https://bing.com"></iframe>
+        <script>
+            let f = document.querySelector("iframe");
+            f.width = window.innerWidth;
+            f.height = window.innerHeight;
+        </script>
     </body>
 </html>
